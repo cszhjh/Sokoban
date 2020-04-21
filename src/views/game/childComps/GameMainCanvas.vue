@@ -266,7 +266,7 @@
       },
 
       clone(arr) {
-        var cloneArray = [];
+        let cloneArray = [];
         arr.forEach(item => cloneArray.push(item.concat()));
         return cloneArray;
       }
