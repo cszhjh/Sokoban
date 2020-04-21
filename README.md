@@ -17,7 +17,7 @@
 ```base
 git clone https://github.com/jrzjh4/Sokoban  //下载 Sokoban
 
-cd sokoban // 进入 Sokoban目录
+cd Sokoban // 进入 Sokoban目录
 
 npm install // 安装依赖
 
