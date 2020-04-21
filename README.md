@@ -15,13 +15,13 @@
 ### 如何安装与使用
 
 ```base
-git clone https://github.com/jrzjh4/sokoban.git  //下载 mall
+git clone https://github.com/jrzjh4/Sokoban  //下载 Sokoban
 
-cd sokoban // 进入 mall目录
+cd sokoban // 进入 Sokoban目录
 
 npm install // 安装依赖
 
-npm run serve // 运行 mall
+npm run serve // 运行 Sokoban
 
 npm run build  // 项目打包
 ```
