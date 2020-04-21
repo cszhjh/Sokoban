@@ -258,8 +258,8 @@
       },
 
       checkPlayer() {
-        for (var i = 0; i < this.currentInitMap.length; ++i)
-          for (var j = 0; j < this.currentInitMap[i].length; ++j)
+        for (let i = 0; i < this.currentInitMap.length; ++i)
+          for (let j = 0; j < this.currentInitMap[i].length; ++j)
             if ((this.currentInitMap[i][j] == 2 && this.getCurrentMap[i][j] != 3)
               || (this.currentInitMap[i][j] == 5 && this.getCurrentMap[i][j] != 3 && this.getCurrentMap[i][j] != 5)) return false;
         return true;
