@@ -72,16 +72,8 @@
 
       initMap() {
         this.currentInitMap = getLevelMap(this.getMapLevel);
-        this.changeCurrentMap(this.currentInitMap).then(res => {
-          console.log("地图修改成功")
-        }, err => {
-          console.log(err);
-        });
-        this.changeRole(this.imgObj.down).then(res => {
-          console.log("小人方向修改成功");
-        }, err => {
-          console.log(err);
-        });
+        this.changeCurrentMap(this.currentInitMap);
+        this.changeRole(this.imgObj.down);
         this.drawBlock();
         this.drawMap();
       },
