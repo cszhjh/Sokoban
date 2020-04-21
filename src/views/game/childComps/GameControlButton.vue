@@ -1,7 +1,7 @@
 <template>
   <div class="operation">
     <el-button type="primary" icon="el-icon-back" @click="resetLevel(-1)" :disabled="isPrevDisabled">上一关</el-button>
-    <el-button type="primary" @click="resetLevel(1)" :disabled="isNextDisabled">上一关<i
+    <el-button type="primary" @click="resetLevel(1)" :disabled="isNextDisabled">下一关<i
         class=" el-icon--right el-icon-right"></i></el-button>
     <el-button type="primary" icon="el-icon-refresh-left" @click="goBack" :disabled="isGoBackDisabled">反悔</el-button>
     <el-button type="primary" icon="el-icon-refresh" @click="replay">重玩本关</el-button>
