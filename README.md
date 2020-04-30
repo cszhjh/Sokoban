@@ -2,7 +2,7 @@
 
 > 致敬彩色电视机小游戏《推箱子》
 
-> <a href="http://129.204.186.164/game" target="_blank">在线演示地址</a>
+> <a href="https://game.itzjh.cn" target="_blank">在线演示地址</a>
 
 > 联系作者
 
