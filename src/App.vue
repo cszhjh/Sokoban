@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <game />
-    <!-- <background /> -->
-    <!-- <hexahedron /> -->
+    <background />
+    <hexahedron />
   </div>
 </template>
 
