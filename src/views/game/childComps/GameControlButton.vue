@@ -73,6 +73,10 @@
           mode: "pop",
           type: "map"
         });
+        this.changeGoBack({
+          mode: "pop",
+          type: "direction"
+        });
         this.$bus.$emit("drawBlock");
         this.$bus.$emit("drawMap");
       },
