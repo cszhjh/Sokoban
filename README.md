@@ -1,12 +1,18 @@
 # sokoban V1.2.1
 
+<style>
+  .markdown-body img {
+    zoom: 50%!important;
+  }
+</style>
+
 > 致敬彩色电视机小游戏《推箱子》
 
 > <a href="https://game.itzjh.cn" target="_blank">在线演示地址</a>
 
 > 联系作者
 
-<img src="https://github.com/jrzjh4/Sokoban/blob/master/code.JPG" style="zoom:50%;width:200px;height:200px;">
+<img src="https://github.com/jrzjh4/Sokoban/blob/master/code.JPG">
 
 ### 免责声明
 
@@ -39,14 +45,13 @@ npm run build  // 项目打包
 
 ### 页面欣赏
 
-<img src="https://github.com/jrzjh4/Sokoban/blob/master/img01.png" style="zoom:50%; width:200px; height:200px;">
+<img src="https://github.com/jrzjh4/Sokoban/blob/master/img01.png">
 
 ### 更新说明
 
 #### V1.2.1 (2020.05.01)
 
 * 修复vw、vh造成的宽高超出一屏
-
 * 修复“后悔按钮”被点击后, 小人方向不发生改变
 
 #### V1.2.0 (2020.04.21)
