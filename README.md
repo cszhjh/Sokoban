@@ -1,4 +1,4 @@
-# sokoban V1.2.0
+# sokoban V1.2.1
 
 > 致敬彩色电视机小游戏《推箱子》
 
@@ -6,7 +6,7 @@
 
 > 联系作者
 
-<img src="https://github.com/jrzjh4/Sokoban/blob/master/code.JPG" style="zoom:50%">
+<img src="https://github.com/jrzjh4/Sokoban/blob/master/code.JPG" style="zoom:50%;width:200px;height:200px;">
 
 ### 免责声明
 
@@ -39,24 +39,30 @@ npm run build  // 项目打包
 
 ### 页面欣赏
 
-<img src="https://github.com/jrzjh4/Sokoban/blob/master/img01.png" style="zoom:50%">
+<img src="https://github.com/jrzjh4/Sokoban/blob/master/img01.png" style="zoom:50%; width:200px; height:200px;">
 
 ### 更新说明
 
+#### V1.2.1 (2020.05.01)
+
+* 修复vw、vh造成的宽高超出一屏
+
+* 修复“后悔按钮”被点击后, 小人方向不发生改变
+
 #### V1.2.0 (2020.04.21)
 
-- 加入**Vuex**对数据进行管理
-- 加入**ElementUI**替换了**旧版**button
-- 修复了"**反悔**"有时得不到预期效果的BUG
-- 修复了第一次加载页面时**canvas**无内容的BUG
+* 加入**Vuex**对数据进行管理
+* 加入**ElementUI**替换了**旧版**button
+* 修复了"**反悔**"有时得不到预期效果
+* 修复了第一次加载页面时**canvas**无内容
 
 #### V1.1.0 (2020.04.19)
 
-- 使用**Vue**对项目进行了重构
+* 使用**Vue**对项目进行了重构
 
-#### V1.0.0 (2020.03.6）
+#### V1.0.0 (2020.03.06）
 
-- 发布正式版(**jquery版**)
+* 发布正式版(**jquery版**)
 
 
 ### 其他说明
