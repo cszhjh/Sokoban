@@ -1,11 +1,5 @@
 # sokoban V1.2.1
 
-<style>
-  .markdown-body img {
-    zoom: 50%!important;
-  }
-</style>
-
 > 致敬彩色电视机小游戏《推箱子》
 
 > <a href="https://game.itzjh.cn" target="_blank">在线演示地址</a>
