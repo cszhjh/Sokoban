@@ -1,4 +1,4 @@
-# sokoban V1.2.1
+# sokoban V1.3.0
 
 > 致敬彩色电视机小游戏《推箱子》
 
@@ -29,6 +29,7 @@ npm run build  // 项目打包
 - Vue2.0 (核心框架)
 - Vue-CLI 4.0 (Vue脚手架)
 - Vuex (状态管理)
+- Axios (网络请求)
 - Bus (事件总线)
 - ES 6 (JavaScript 语言的下一代标准)
 - Vue-Particles (背景UI)
@@ -40,6 +41,10 @@ npm run build  // 项目打包
 <img src="https://github.com/jrzjh4/Sokoban/blob/master/img01.png">
 
 ### 更新说明
+
+#### V1.3.0 (2020.05.06)
+
+* 加入 axios
 
 #### V1.2.1 (2020.05.01)
 

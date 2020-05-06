@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import { getLevelMap } from "network"
+  import { getLevelMap } from "network/game"
   import { MAP_WIDTH, MAP_HEIGHT, WIDTH, HEIGHT } from "common/const"
   import { Position, imgLoad } from "common/utils"
 
@@ -15,6 +15,7 @@
     name: "GameMainCanvas",
     data() {
       return {
+        levelsMap: [],
         canvas: null,
         cxt: null,
         currentInitMap: null,
@@ -31,6 +32,12 @@
           up: require("@/assets/img/up.png"),
         }
       }
+    },
+    created() {
+      getLevelMap().then(res => {
+        this.levelsMap = res.data.levels;
+        this.init()
+      })
     },
     mounted() {
       this.$bus.$on("init", this.init);
@@ -66,12 +73,14 @@
       ]),
 
       init() {
-        this.claerGoBack();
-        this.initMap();
+        if (this.levelsMap.length) {
+          this.claerGoBack();
+          this.initMap();
+        }
       },
 
       initMap() {
-        this.currentInitMap = getLevelMap(this.getMapLevel);
+        this.currentInitMap = this.levelsMap[this.getMapLevel];
         this.changeCurrentMap(this.currentInitMap);
         this.changeRole(this.imgObj.down);
         this.drawBlock();
