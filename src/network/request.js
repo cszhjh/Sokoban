@@ -5,5 +5,14 @@ export function request(config) {
     baseURL: 'https://api.itzjh.cn',
     timeout: 5000
   })
+
+  instance.interceptors.request.use(config => {
+    return config
+  })
+
+  instance.interceptors.response.use(config => {
+    return config
+  })
+
   return instance(config)
 }

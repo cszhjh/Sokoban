@@ -7,22 +7,22 @@
 </template>
 
 <script>
-  import Game from "views/game/Game"
+import Game from 'views/game/Game'
 
-  import Background from "components/common/background/Background"
-  import Hexahedron from "components/common/hexahedron/Hexahedron"
+import Background from 'components/common/background/Background'
+import Hexahedron from 'components/common/hexahedron/Hexahedron'
 
-  export default {
-    name: 'App',
-    components: {
-      Game,
+export default {
+  name: 'App',
+  components: {
+    Game,
 
-      Background,
-      Hexahedron
-    }
+    Background,
+    Hexahedron
   }
+}
 </script>
 
 <style>
-  @import url("~assets/css/base.css");
+@import url('~assets/css/base.css');
 </style>

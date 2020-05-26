@@ -17,41 +17,41 @@
 </template>
 
 <script>
-  export default {
-    name: "GameExplainTxt",
-    props: {
-      isShowExplain: {
-        type: Boolean,
-        default: false
-      }
+export default {
+  name: 'GameExplainTxt',
+  props: {
+    isShowExplain: {
+      type: Boolean,
+      default: false
     }
   }
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .explain {
-    position: absolute;
-    left: 0;
-    top: 35px;
-    width: 560px;
-    height: 560px;
-    margin-top: 10px;
-    box-sizing: border-box;
-    background: rgba(0, 0, 0, .5);
-    color: #fff;
-  }
+.explain {
+  position: absolute;
+  left: 0;
+  top: 35px;
+  width: 560px;
+  height: 560px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
 
-  .explain .box {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-  }
+.explain .box {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
 
-  .explain .box p:nth-child(n + 2) {
-    margin-top: 10px;
-  }
+.explain .box p:nth-child(n + 2) {
+  margin-top: 10px;
+}
 </style>
