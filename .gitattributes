@@ -1,4 +1,2 @@
-*.html linguist-language=Vue 
 *.js linguist-language=Vue 
 *.vue linguist-language=Vue
-*.css linguist-language=Vue 
