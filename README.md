@@ -13,15 +13,15 @@
 ### 如何安装与使用
 
 ```shell
-git clone https://github.com/jrzjh4/Sokoban  //下载 Sokoban
+git clone https://github.com/jrzjh4/Sokoban  # 下载 Sokoban
 
-cd Sokoban // 进入 Sokoban目录
+cd Sokoban # 进入 Sokoban目录
 
-npm install // 安装依赖
+npm install # 安装依赖
 
-npm run serve // 运行 Sokoban
+npm run serve # 运行 Sokoban
 
-npm run build  // 项目打包
+npm run build  # 项目打包
 ```
 
 ### 技术栈
