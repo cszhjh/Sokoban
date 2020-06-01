@@ -1,6 +1,6 @@
 <template>
   <vue-particles
-    :style="{ height: bgHeight }"
+    :style="{ height: bgHeight, overflow: 'hidden' }"
     color="#dedede"
     :particleOpacity="0.7"
     :particlesNumber="80"
