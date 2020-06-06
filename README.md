@@ -4,7 +4,7 @@
 
 > <a href="https://game.itzjh.cn" target="_blank">在线演示地址</a>
 
-> <a href="https://www.itzjh.cn/images/wechat.jpg" target="_blank">联系作者</a>
+> <a href="https://www.itzjh.cn/images/wechat.jpeg" target="_blank">联系作者</a>
 
 ### 免责声明
 
