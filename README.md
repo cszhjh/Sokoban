@@ -4,12 +4,6 @@
 
 > <a href="https://game.coderlion.com" target="_blank">在线演示地址</a>
 
-> <a href="https://www.coderlion.com/images/wechat.jpeg" target="_blank">联系作者</a>
-
-### 免责声明
-
-* 本站仅供学习, 不做任何盈利目的, 图片资源来自**互联网**, 如有侵权, 请联系我
-
 ### 如何安装与使用
 
 ```shell
@@ -31,7 +25,7 @@ npm run build  # 项目打包
 * Vuex (状态管理)
 * Axios (网络请求)
 * Bus (事件总线)
-* ES 6 (JavaScript 语言的下一代标准)
+* ES6 (JavaScript 语言的下一代标准)
 * Vue-Particles (背景UI)
 * Element-UI (前端UI框架)
 
@@ -68,4 +62,4 @@ npm run build  # 项目打包
 
 #### V1.0.0 (2020.03.06)
 
-* jquery 版
+* jQuery 版
