@@ -2,9 +2,9 @@
 
 > 致敬彩色电视机小游戏《推箱子》
 
-> <a href="https://game.itzjh.cn" target="_blank">在线演示地址</a>
+> <a href="https://game.coderlion.com" target="_blank">在线演示地址</a>
 
-> <a href="https://www.itzjh.cn/images/wechat.jpeg" target="_blank">联系作者</a>
+> <a href="https://www.coderlion.com/images/wechat.jpeg" target="_blank">联系作者</a>
 
 ### 免责声明
 
@@ -13,7 +13,7 @@
 ### 如何安装与使用
 
 ```shell
-git clone https://github.com/jrzjh4/Sokoban  # 下载 Sokoban
+git clone https://github.com/coderlion4/Sokoban  # 下载 Sokoban
 
 cd Sokoban # 进入 Sokoban目录
 
@@ -37,7 +37,7 @@ npm run build  # 项目打包
 
 ### 页面欣赏
 
-<img src="https://github.com/jrzjh4/Sokoban/blob/master/img01.png">
+<img src="https://github.com/coderlion4/Sokoban/blob/master/img01.png">
 
 ### 更新说明
 
@@ -68,9 +68,4 @@ npm run build  # 项目打包
 
 #### V1.0.0 (2020.03.06)
 
-* 发布正式版(**jquery 版**)
-
-
-### 其他说明
-
-此项目为学校课程**作业**
+* jquery 版
